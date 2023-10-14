@@ -1,0 +1,54 @@
+        body {
+            background-image: url("netflixbg.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .formlogo img{
+            
+            width: 200px;
+            height: 10cd0px;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+
+        form {
+            background-color: rgba(17, 3, 3, 0.819);
+            padding: 50px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .mb-3,h2 {
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        /* Style your form elements as needed */
+        .form-label {
+            font-weight: bold;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-check-input {
+            margin-right: 5px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
